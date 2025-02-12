@@ -109,3 +109,50 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+/*  Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .row input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .row button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .todo-app h2 {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .row input {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .row button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
